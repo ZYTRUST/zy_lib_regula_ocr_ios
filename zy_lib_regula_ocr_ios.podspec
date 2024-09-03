@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of zy_lib_regula_ocr_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   
   s.resources = ['zy_lib_regula_ocr_ios.bundle']
 
-  s.vendored_frameworks = "zy_lib_regula_ocr_ios.framework"
+  s.vendored_frameworks = "zy_lib_regula_ocr_ios.xcframework"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

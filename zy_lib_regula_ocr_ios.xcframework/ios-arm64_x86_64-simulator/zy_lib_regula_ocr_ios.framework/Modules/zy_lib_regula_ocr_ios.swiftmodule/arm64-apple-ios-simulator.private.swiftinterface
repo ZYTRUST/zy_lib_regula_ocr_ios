@@ -1,0 +1,71 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.10 effective-4.1.50 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-module-flags: -target arm64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name zy_lib_regula_ocr_ios
+import DocumentReader
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_exported import zy_lib_regula_ocr_ios
+@_inheritsConvenienceInitializers public class ZyRegulaCaptura : zy_lib_regula_ocr_ios.ZyRegulaService {
+  public typealias IZyCallbackOCR = (zy_lib_regula_ocr_ios.ZyOcrResult<zy_lib_regula_ocr_ios.ZyRegulaResponse, zy_lib_regula_ocr_ios.ZyOcrError>) -> Swift.Void
+  public func zyRegulaCaptura(zyRegulaRequest: zy_lib_regula_ocr_ios.ZyRegulaRequest?, completion: @escaping zy_lib_regula_ocr_ios.ZyRegulaCaptura.IZyCallbackOCR)
+  override public init(vcRegula: UIKit.UIViewController)
+  @objc deinit
+}
+public class ZyRegulaOcr {
+  public var vcRegula: UIKit.UIViewController
+  public var nameScenario: Swift.String?
+  public var zyRegulaRequest: zy_lib_regula_ocr_ios.ZyRegulaRequest?
+  public init(vcRegula: UIKit.UIViewController)
+  public func showScanner(onSuccess: @escaping (DocumentReader.DocumentReaderResults?) -> Swift.Void, onError: @escaping ((any Swift.Error)?) -> Swift.Void, onTimeout: @escaping (DocumentReader.DocumentReaderResults?) -> Swift.Void, onCancelled: @escaping (DocumentReader.DocumentReaderResults?) -> Swift.Void)
+  @objc deinit
+}
+public struct ZyRegulaRequest {
+  public init()
+  public var timeOutCapturaSeg: Foundation.NSNumber?
+  public var tintColor: Swift.String?
+  public var cameraFrameColor: Swift.String?
+  public var scenario: Swift.String?
+}
+public enum ZyOcrResult<T, E> {
+  case success(T)
+  case error(E)
+}
+public struct ZyOcrError {
+  public let coError: Swift.Int?
+  public let deError: Swift.String?
+  public var mensaje: Swift.String?
+}
+public struct ZyRegulaResponse {
+  public init()
+  public var coError: Swift.Int?
+  public var deError: Swift.String?
+  public var mensaje: Swift.String?
+  public var numeroDocumento: Swift.String?
+  public var fechaExpiracion: Swift.String?
+  public var fechaEmision: Swift.String?
+  public var apellido1: Swift.String?
+  public var apellido2: Swift.String?
+  public var nombres: Swift.String?
+  public var fotoAnverso: UIKit.UIImage?
+  public var fotoReverso: UIKit.UIImage?
+  public var codigoNacionalidad: Swift.String?
+  public var sexo: Swift.String?
+  public var tipoDocumento: Swift.Int?
+  public var tipoDocumentoDescripcion: Swift.String?
+  public var fechaNacimiento: Swift.String?
+  public var finalChecksum: Swift.String?
+  public var mrzStringsWithCorrectChecksums: Swift.String?
+  public var age: Swift.String?
+  public var verifNumDocumento: Swift.String?
+  public var verifFechaExpiracion: Swift.String?
+  public var verifFechaNacimiento: Swift.String?
+  public var verifFinalChecksum: Swift.String?
+  public var verifMrzStringsWithCorrectChecksums: Swift.String?
+}
+@_inheritsConvenienceInitializers public class ZyRegulaService : zy_lib_regula_ocr_ios.ZyRegulaOcr {
+  override public init(vcRegula: UIKit.UIViewController)
+  @objc deinit
+}

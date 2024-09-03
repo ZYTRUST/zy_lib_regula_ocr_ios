@@ -1,0 +1,4572 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentReader",
+        "printedName": "DocumentReader",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyRegulaCaptura",
+        "printedName": "ZyRegulaCaptura",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "zyRegulaCaptura",
+            "printedName": "zyRegulaCaptura(zyRegulaRequest:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyRegulaRequest",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest",
+                    "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(zy_lib_regula_ocr_ios.ZyOcrResult<zy_lib_regula_ocr_ios.ZyRegulaResponse, zy_lib_regula_ocr_ios.ZyOcrError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyOcrResult",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<zy_lib_regula_ocr_ios.ZyRegulaResponse, zy_lib_regula_ocr_ios.ZyOcrError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyRegulaResponse",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyRegulaResponse",
+                        "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyOcrError",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyOcrError",
+                        "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV"
+                      }
+                    ],
+                    "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaCapturaC0agH00aG7Request10completionyAA0fgI0VSg_yAA0F9OcrResultOyAA0fG8ResponseVAA0fK5ErrorVGctF",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaCapturaC0agH00aG7Request10completionyAA0fgI0VSg_yAA0F9OcrResultOyAA0fG8ResponseVAA0fK5ErrorVGctF",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(vcRegula:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyRegulaCaptura",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaCaptura",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaCapturaC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaCapturaC02vcG0ACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaCapturaC02vcG0ACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaCapturaC",
+        "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaCapturaC",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:21zy_lib_regula_ocr_ios15ZyRegulaServiceC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "zy_lib_regula_ocr_ios.ZyRegulaService",
+          "zy_lib_regula_ocr_ios.ZyRegulaOcr"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentReader",
+        "printedName": "DocumentReader",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyRegulaOcr",
+        "printedName": "ZyRegulaOcr",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "vcRegula",
+            "printedName": "vcRegula",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0So16UIViewControllerCvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nameScenario",
+            "printedName": "nameScenario",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC12nameScenarioSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "zyRegulaRequest",
+            "printedName": "zyRegulaRequest",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ZyRegulaRequest",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest",
+                    "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyRegulaRequest",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest",
+                        "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyRegulaRequest",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest",
+                        "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC0aG7RequestAA0fgI0VSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(vcRegula:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyRegulaOcr",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaOcr",
+                "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0ACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC02vcG0ACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "showScanner",
+            "printedName": "showScanner(onSuccess:onError:onTimeout:onCancelled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DocumentReader.DocumentReaderResults?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DocumentReader.DocumentReaderResults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentReaderResults",
+                        "printedName": "DocumentReader.DocumentReaderResults",
+                        "usr": "c:objc(cs)RGLDocumentReaderResults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "((any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DocumentReader.DocumentReaderResults?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DocumentReader.DocumentReaderResults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentReaderResults",
+                        "printedName": "DocumentReader.DocumentReaderResults",
+                        "usr": "c:objc(cs)RGLDocumentReaderResults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DocumentReader.DocumentReaderResults?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DocumentReader.DocumentReaderResults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentReaderResults",
+                        "printedName": "DocumentReader.DocumentReaderResults",
+                        "usr": "c:objc(cs)RGLDocumentReaderResults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC11showScanner9onSuccess0K5Error0K7Timeout0K9CancelledyySo24RGLDocumentReaderResultsCSgc_ys0M0_pSgcyAKcyAKctF",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC11showScanner9onSuccess0K5Error0K7Timeout0K9CancelledyySo24RGLDocumentReaderResultsCSgc_ys0M0_pSgcyAKcyAKctF",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC",
+        "mangledName": "$s21zy_lib_regula_ocr_ios11ZyRegulaOcrC",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentReader",
+        "printedName": "DocumentReader",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyRegulaRequest",
+        "printedName": "ZyRegulaRequest",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyRegulaRequest",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaRequest",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestVACycfc",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestVACycfc",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "timeOutCapturaSeg",
+            "printedName": "timeOutCapturaSeg",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSNumber?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSNumber",
+                        "printedName": "Foundation.NSNumber",
+                        "usr": "c:objc(cs)NSNumber"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV17timeOutCapturaSegSo8NSNumberCSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tintColor",
+            "printedName": "tintColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV9tintColorSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cameraFrameColor",
+            "printedName": "cameraFrameColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV16cameraFrameColorSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scenario",
+            "printedName": "scenario",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV8scenarioSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV",
+        "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyOcrResult",
+        "printedName": "ZyOcrResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "success",
+            "printedName": "success",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>.Type) -> (τ_0_0) -> zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_0) -> zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyOcrResult",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyOcrResult",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO7successyACyxq_GxcAEmr0_lF",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyOcrResultO7successyACyxq_GxcAEmr0_lF",
+            "moduleName": "zy_lib_regula_ocr_ios"
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "GenericFunction",
+                "printedName": "<τ_0_0, τ_0_1> (zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>.Type) -> (τ_0_1) -> zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(τ_0_1) -> zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyOcrResult",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ZyOcrResult",
+                        "printedName": "zy_lib_regula_ocr_ios.ZyOcrResult<τ_0_0, τ_0_1>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_1"
+                          }
+                        ],
+                        "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO5erroryACyxq_Gq_cAEmr0_lF",
+            "mangledName": "$s21zy_lib_regula_ocr_ios11ZyOcrResultO5erroryACyxq_Gq_cAEmr0_lF",
+            "moduleName": "zy_lib_regula_ocr_ios"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21zy_lib_regula_ocr_ios11ZyOcrResultO",
+        "mangledName": "$s21zy_lib_regula_ocr_ios11ZyOcrResultO",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<T, E>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyOcrError",
+        "printedName": "ZyOcrError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "coError",
+            "printedName": "coError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV02coH0SiSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV02coH0SiSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV02coH0SiSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV02coH0SiSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deError",
+            "printedName": "deError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV02deH0SSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV02deH0SSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV02deH0SSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV02deH0SSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mensaje",
+            "printedName": "mensaje",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV7mensajeSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21zy_lib_regula_ocr_ios10ZyOcrErrorV",
+        "mangledName": "$s21zy_lib_regula_ocr_ios10ZyOcrErrorV",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyRegulaResponse",
+        "printedName": "ZyRegulaResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyRegulaResponse",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaResponse",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseVACycfc",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseVACycfc",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "coError",
+            "printedName": "coError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7coErrorSiSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deError",
+            "printedName": "deError",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7deErrorSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mensaje",
+            "printedName": "mensaje",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7mensajeSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "numeroDocumento",
+            "printedName": "numeroDocumento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15numeroDocumentoSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fechaExpiracion",
+            "printedName": "fechaExpiracion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaExpiracionSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fechaEmision",
+            "printedName": "fechaEmision",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV12fechaEmisionSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apellido1",
+            "printedName": "apellido1",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido1SSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apellido2",
+            "printedName": "apellido2",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV9apellido2SSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nombres",
+            "printedName": "nombres",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV7nombresSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fotoAnverso",
+            "printedName": "fotoAnverso",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoAnversoSo7UIImageCSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fotoReverso",
+            "printedName": "fotoReverso",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV11fotoReversoSo7UIImageCSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "codigoNacionalidad",
+            "printedName": "codigoNacionalidad",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18codigoNacionalidadSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sexo",
+            "printedName": "sexo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV4sexoSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tipoDocumento",
+            "printedName": "tipoDocumento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13tipoDocumentoSiSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tipoDocumentoDescripcion",
+            "printedName": "tipoDocumentoDescripcion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24tipoDocumentoDescripcionSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fechaNacimiento",
+            "printedName": "fechaNacimiento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV15fechaNacimientoSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finalChecksum",
+            "printedName": "finalChecksum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV13finalChecksumSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mrzStringsWithCorrectChecksums",
+            "printedName": "mrzStringsWithCorrectChecksums",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV30mrzStringsWithCorrectChecksumsSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "age",
+            "printedName": "age",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV3ageSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifNumDocumento",
+            "printedName": "verifNumDocumento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV17verifNumDocumentoSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifFechaExpiracion",
+            "printedName": "verifFechaExpiracion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaExpiracionSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifFechaNacimiento",
+            "printedName": "verifFechaNacimiento",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV20verifFechaNacimientoSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifFinalChecksum",
+            "printedName": "verifFinalChecksum",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV18verifFinalChecksumSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifMrzStringsWithCorrectChecksums",
+            "printedName": "verifMrzStringsWithCorrectChecksums",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV",
+        "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DocumentReader",
+        "printedName": "DocumentReader",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ZyRegulaService",
+        "printedName": "ZyRegulaService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(vcRegula:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ZyRegulaService",
+                "printedName": "zy_lib_regula_ocr_ios.ZyRegulaService",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaServiceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaServiceC02vcG0ACSo16UIViewControllerC_tcfc",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaServiceC02vcG0ACSo16UIViewControllerC_tcfc",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaServiceC",
+        "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaServiceC",
+        "moduleName": "zy_lib_regula_ocr_ios",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "superclassUsr": "s:21zy_lib_regula_ocr_ios11ZyRegulaOcrC",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "zy_lib_regula_ocr_ios.ZyRegulaOcr"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/libs\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    }
+  ]
+}
