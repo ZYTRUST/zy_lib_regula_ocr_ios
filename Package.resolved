@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "documentreader-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReader-Swift-Package.git",
+      "state" : {
+        "revision" : "925bfa2460a633d47f1efc24fe689893d6304603",
+        "version" : "7.4.3826"
+      }
+    },
+    {
+      "identity" : "documentreaderfullauth-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/DocumentReaderFullAuth-Swift-Package.git",
+      "state" : {
+        "revision" : "e7de3df8786971db1a06c3d9c457ca95290590df",
+        "version" : "7.4.9823"
+      }
+    },
+    {
+      "identity" : "regulacommon-swift-package",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/regulaforensics/RegulaCommon-Swift-Package.git",
+      "state" : {
+        "revision" : "1a0f0cd0d9ad04d5fcf356a4cc7731069ce7117e",
+        "version" : "7.4.727"
+      }
+    }
+  ],
+  "version" : 2
+}

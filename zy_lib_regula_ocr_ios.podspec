@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of zy_lib_regula_ocr_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -31,15 +31,15 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '12.0'
 
   
-  s.resources = ['zy_lib_regula_ocr_ios.bundle']
+  s.resources = ['Sources/zy_lib_regula_ocr_ios.bundle']
 
-  s.vendored_frameworks = "zy_lib_regula_ocr_ios.xcframework"
+  s.vendored_frameworks = "Sources/zy_lib_regula_ocr_ios.xcframework"
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.static_framework = true
   s.dependency 'DocumentReader', '~> 7.3.0'
-  s.dependency 'DocumentReaderFullRFID', '~> 7.3.0'
+  s.dependency 'DocumentReaderFullAuth', '~> 7.3.0'
   
 end
