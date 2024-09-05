@@ -16,16 +16,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "zy_lib_regula_ocr_ios",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "DocumentReader",
         "printedName": "DocumentReader",
         "declKind": "Import",
