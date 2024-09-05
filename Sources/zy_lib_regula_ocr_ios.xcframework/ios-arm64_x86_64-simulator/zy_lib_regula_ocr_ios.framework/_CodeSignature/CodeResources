@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Q1hDK8NmVIFobtwbc0jEksq5eio=
+		kkyQxAof76E6a6tBbyECdJoQsxY=
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		lzEfjl9HVOZj83XIcHNp+U3OsWE=
+		/figOOLvcAEgUiYH5kxJ15lPhGY=
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NvkYbPgt0WeevSTvNyp+N2ax3DE=
+		n8LSGjpTeEFQ2YgHGa4fB/uw8M8=
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		i2oFkglrlxjNzMKaxy9Mm9Lddpc=
+		CakV9hNUiqWFcUpVw1UibZzpsVk=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -108,22 +108,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q1hDK8NmVIFobtwbc0jEksq5eio=
+			kkyQxAof76E6a6tBbyECdJoQsxY=
 			</data>
 			<key>hash2</key>
 			<data>
-			nRYnGsU9Nx7UEurBuL/On3feF/8UXLe3g57w8T30NPI=
+			F/CZCLUvJnpJJ0LsGKFbyTsSxhqj5jvferMJAIvD4D0=
 			</data>
 		</dict>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lzEfjl9HVOZj83XIcHNp+U3OsWE=
+			/figOOLvcAEgUiYH5kxJ15lPhGY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Bl5oZd58wHhqfh3PIyVxYb8LtKxhupoeXx5loduOABU=
+			SPAW/YMBc79YLkl0MXqYYuokp692ehDRbTtuGrL913Y=
 			</data>
 		</dict>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
@@ -174,11 +174,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NvkYbPgt0WeevSTvNyp+N2ax3DE=
+			n8LSGjpTeEFQ2YgHGa4fB/uw8M8=
 			</data>
 			<key>hash2</key>
 			<data>
-			vr3/v1OZDZho+K3HhJ9Cc766oTKRL3L6E99HZchnuIg=
+			PwT20U+QM1cOELskGIvy4evOg1vdzJw7Bx1n1aEF6ZQ=
 			</data>
 		</dict>
 		<key>Modules/zy_lib_regula_ocr_ios.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -229,11 +229,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			i2oFkglrlxjNzMKaxy9Mm9Lddpc=
+			CakV9hNUiqWFcUpVw1UibZzpsVk=
 			</data>
 			<key>hash2</key>
 			<data>
-			c8CXIm5vgrN/K7G4lTYcIj8TRpAVX1StGJgFECkQJ18=
+			J2uC0mQEw0rtOpo8MTs8NXMrh0f6/O7si1aG6PT90+4=
 			</data>
 		</dict>
 	</dict>
