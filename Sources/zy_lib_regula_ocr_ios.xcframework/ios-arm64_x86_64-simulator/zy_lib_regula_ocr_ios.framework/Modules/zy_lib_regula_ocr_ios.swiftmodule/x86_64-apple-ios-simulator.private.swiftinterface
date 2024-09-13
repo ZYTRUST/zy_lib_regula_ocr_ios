@@ -58,12 +58,15 @@ public struct ZyRegulaResponse {
   public var fechaNacimiento: Swift.String?
   public var finalChecksum: Swift.String?
   public var mrzStringsWithCorrectChecksums: Swift.String?
+  public var personalNumberCheck: Swift.String?
   public var age: Swift.String?
   public var verifNumDocumento: Swift.String?
   public var verifFechaExpiracion: Swift.String?
   public var verifFechaNacimiento: Swift.String?
   public var verifFinalChecksum: Swift.String?
   public var verifMrzStringsWithCorrectChecksums: Swift.String?
+  public var verifPersonalNumberCheck: Swift.String?
+  public var dataRegula: DocumentReader.DocumentReaderResults?
 }
 @_inheritsConvenienceInitializers public class ZyRegulaService : zy_lib_regula_ocr_ios.ZyRegulaOcr {
   override public init(vcRegula: UIKit.UIViewController)

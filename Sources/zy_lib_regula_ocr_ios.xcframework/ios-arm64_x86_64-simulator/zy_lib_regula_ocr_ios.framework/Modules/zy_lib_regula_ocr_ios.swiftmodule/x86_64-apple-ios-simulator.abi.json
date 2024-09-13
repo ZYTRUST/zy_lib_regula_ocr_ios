@@ -1146,6 +1146,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "DocumentReader",
+        "printedName": "DocumentReader",
+        "declKind": "Import",
+        "moduleName": "zy_lib_regula_ocr_ios"
+      },
+      {
         "kind": "TypeDecl",
         "name": "ZyOcrResult",
         "printedName": "ZyOcrResult",
@@ -3559,6 +3566,116 @@
           },
           {
             "kind": "Var",
+            "name": "personalNumberCheck",
+            "printedName": "personalNumberCheck",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV19personalNumberCheckSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "age",
             "printedName": "age",
             "children": [
@@ -4211,6 +4328,226 @@
                 "declKind": "Accessor",
                 "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvM",
                 "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV35verifMrzStringsWithCorrectChecksumsSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verifPersonalNumberCheck",
+            "printedName": "verifPersonalNumberCheck",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV24verifPersonalNumberCheckSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataRegula",
+            "printedName": "dataRegula",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DocumentReader.DocumentReaderResults?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DocumentReaderResults",
+                    "printedName": "DocumentReader.DocumentReaderResults",
+                    "usr": "c:objc(cs)RGLDocumentReaderResults"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DocumentReader.DocumentReaderResults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentReaderResults",
+                        "printedName": "DocumentReader.DocumentReaderResults",
+                        "usr": "c:objc(cs)RGLDocumentReaderResults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DocumentReader.DocumentReaderResults?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DocumentReaderResults",
+                        "printedName": "DocumentReader.DocumentReaderResults",
+                        "usr": "c:objc(cs)RGLDocumentReaderResults"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV04dataG0So24RGLDocumentReaderResultsCSgvM",
                 "moduleName": "zy_lib_regula_ocr_ios",
                 "implicit": true,
                 "accessorKind": "_modify"
