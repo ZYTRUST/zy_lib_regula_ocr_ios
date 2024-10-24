@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "zy_lib_regula_ocr_ios",
-    "printedName": "zy_lib_regula_ocr_ios",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
     "children": [
       {
         "kind": "Import",
@@ -144,22 +144,6 @@
         "superclassNames": [
           "zy_lib_regula_ocr_ios.ZyRegulaService",
           "zy_lib_regula_ocr_ios.ZyRegulaOcr"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -657,22 +641,6 @@
         "moduleName": "zy_lib_regula_ocr_ios",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1165,22 +1133,6 @@
         "moduleName": "zy_lib_regula_ocr_ios",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1360,22 +1312,6 @@
         "sugared_genericSig": "<T, E>",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1620,22 +1556,6 @@
         "moduleName": "zy_lib_regula_ocr_ios",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -4641,22 +4561,6 @@
         "moduleName": "zy_lib_regula_ocr_ios",
         "declAttributes": [
           "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -4722,28 +4626,194 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "zy_lib_regula_ocr_ios.ZyRegulaOcr"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
       "kind": "IntegerLiteral",
