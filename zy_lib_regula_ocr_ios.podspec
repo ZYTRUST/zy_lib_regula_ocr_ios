@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.3.2'
+  s.version          = '0.3.4'
   s.summary          = 'A short description of zy_lib_regula_ocr_ios.'
   s.swift_versions   = '5.0'
 

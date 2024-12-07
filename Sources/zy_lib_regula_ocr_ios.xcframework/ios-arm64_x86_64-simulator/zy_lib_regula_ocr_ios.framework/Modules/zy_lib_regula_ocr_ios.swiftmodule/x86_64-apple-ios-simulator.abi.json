@@ -1125,6 +1125,178 @@
                 "accessorKind": "_modify"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "detectGrayScale",
+            "printedName": "detectGrayScale",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV15detectGrayScaleSbvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "detectHologram",
+            "printedName": "detectHologram",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios15ZyRegulaRequestV14detectHologramSbvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -4726,93 +4898,16 @@
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 173,
+      "offset": 606,
       "length": 4,
-      "value": "8000"
+      "value": "9129"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
       "kind": "IntegerLiteral",
-      "offset": 207,
+      "offset": 654,
       "length": 4,
-      "value": "9101"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 238,
-      "length": 4,
-      "value": "9102"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 269,
-      "length": 4,
-      "value": "9103"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 303,
-      "length": 4,
-      "value": "9104"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 326,
-      "length": 4,
-      "value": "9105"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 363,
-      "length": 4,
-      "value": "9106"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 396,
-      "length": 4,
-      "value": "9107"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 427,
-      "length": 4,
-      "value": "9116"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 456,
-      "length": 4,
-      "value": "9108"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 496,
-      "length": 4,
-      "value": "9109"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 529,
-      "length": 4,
-      "value": "5000"
-    },
-    {
-      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
-      "kind": "IntegerLiteral",
-      "offset": 566,
-      "length": 4,
-      "value": "5001"
+      "value": "9130"
     },
     {
       "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
@@ -4904,6 +4999,139 @@
       "offset": 566,
       "length": 4,
       "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 4,
+      "value": "9129"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 654,
+      "length": 4,
+      "value": "9130"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 173,
+      "length": 4,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 207,
+      "length": 4,
+      "value": "9101"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 4,
+      "value": "9102"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 4,
+      "value": "9103"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 303,
+      "length": 4,
+      "value": "9104"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 326,
+      "length": 4,
+      "value": "9105"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 4,
+      "value": "9106"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 4,
+      "value": "9107"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 427,
+      "length": 4,
+      "value": "9116"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 456,
+      "length": 4,
+      "value": "9108"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 496,
+      "length": 4,
+      "value": "9109"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 529,
+      "length": 4,
+      "value": "5000"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "5001"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 606,
+      "length": 4,
+      "value": "9129"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Util\/ZyRegulaErrorEnum.swift",
+      "kind": "IntegerLiteral",
+      "offset": 654,
+      "length": 4,
+      "value": "9130"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Api\/ZyRegulaRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 419,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zytrust\/Proyectos\/cliente\/zytrust\/iOS\/zy_lib_regula_ocr_ios\/zy_lib_regula_ocr_ios\/Classes\/Api\/ZyRegulaRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 463,
+      "length": 5,
+      "value": "false"
     }
   ]
 }

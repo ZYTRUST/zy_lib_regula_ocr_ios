@@ -28,6 +28,8 @@ public struct ZyRegulaRequest {
   public var tintColor: Swift.String?
   public var cameraFrameColor: Swift.String?
   public var scenario: Swift.String?
+  public var detectGrayScale: Swift.Bool
+  public var detectHologram: Swift.Bool
 }
 public enum ZyOcrResult<T, E> {
   case success(T)
