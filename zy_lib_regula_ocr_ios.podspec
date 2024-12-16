@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.3.6'
+  s.version          = '0.3.7'
   s.summary          = 'A short description of zy_lib_regula_ocr_ios.'
   s.swift_versions   = '5.0'
 
@@ -41,8 +41,7 @@ TODO: Add long description of the pod here.
     'ONLY_ACTIVE_ARCH' => 'YES'
   }
 
-  s.dependency 'DocumentReader', '~> 7.4.0'
-
-  s.dependency 'DocumentReaderFullAuth', '~> 7.4.0'
+  s.dependency 'DocumentReader', '7.4.3900'
+  s.dependency 'DocumentReaderFullAuth', '7.4.9823'
   
 end
