@@ -2278,6 +2278,116 @@
           },
           {
             "kind": "Var",
+            "name": "numeroDocumentoPassport",
+            "printedName": "numeroDocumentoPassport",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvp",
+            "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvp",
+            "moduleName": "zy_lib_regula_ocr_ios",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvg",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvg",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvs",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvs",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvM",
+                "mangledName": "$s21zy_lib_regula_ocr_ios16ZyRegulaResponseV23numeroDocumentoPassportSSSgvM",
+                "moduleName": "zy_lib_regula_ocr_ios",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "fechaExpiracion",
             "printedName": "fechaExpiracion",
             "children": [

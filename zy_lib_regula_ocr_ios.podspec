@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.4.1'
-  s.summary          = 'A short description of zy_lib_regula_ocr_ios.'
+  s.version          = '0.4.2'
+  s.summary          = 'Libreria exclusiva para clientes de ZYTrust , captura de Documentos.'
   s.swift_versions   = '5.0'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+Libreria exclusiva para clientes de ZYTrust , captura de Documentos, la cual fue personalizada y editada para 
+el mejor funcionamiento , base 7.4.x
                        DESC
 
   s.homepage         = 'https://www.zytrust.com'

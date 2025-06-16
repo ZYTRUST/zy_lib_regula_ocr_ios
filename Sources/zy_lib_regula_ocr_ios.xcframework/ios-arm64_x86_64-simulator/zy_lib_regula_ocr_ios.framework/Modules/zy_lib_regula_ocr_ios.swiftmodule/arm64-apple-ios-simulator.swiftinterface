@@ -47,6 +47,7 @@ public struct ZyRegulaResponse {
   public var deError: Swift.String?
   public var mensaje: Swift.String?
   public var numeroDocumento: Swift.String?
+  public var numeroDocumentoPassport: Swift.String?
   public var fechaExpiracion: Swift.String?
   public var fechaEmision: Swift.String?
   public var apellido1: Swift.String?
