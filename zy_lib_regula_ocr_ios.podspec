@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.4.2'
+  s.version          = '0.4.3'
   s.summary          = 'Libreria exclusiva para clientes de ZYTrust , captura de Documentos.'
   s.swift_versions   = '5.0'
 
