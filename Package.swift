@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "zy_lib_regula_ocr_ios",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(
@@ -13,8 +13,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package.git", from: "7.3.0"),
-        .package(url: "https://github.com/regulaforensics/DocumentReaderFullAuth-Swift-Package.git", from: "7.3.0")
+        .package(url: "https://github.com/regulaforensics/DocumentReader-Swift-Package.git", from: "8.1.0"),
+        .package(url: "https://github.com/regulaforensics/DocumentReaderFullAuth-Swift-Package.git", from: "8.1.0")
     ],
     targets: [
         .target(

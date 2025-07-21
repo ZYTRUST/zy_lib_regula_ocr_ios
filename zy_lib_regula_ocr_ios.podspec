@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'zy_lib_regula_ocr_ios'
-  s.version          = '0.4.3'
+  s.version          = '0.5.0'
   s.summary          = 'Libreria exclusiva para clientes de ZYTrust , captura de Documentos.'
   s.swift_versions   = '5.0'
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.description      = <<-DESC
 Libreria exclusiva para clientes de ZYTrust , captura de Documentos, la cual fue personalizada y editada para 
-el mejor funcionamiento , base 7.4.x
+el mejor funcionamiento , base 8.5.x
                        DESC
 
   s.homepage         = 'https://www.zytrust.com'
@@ -28,7 +28,7 @@ el mejor funcionamiento , base 7.4.x
   s.author           = { 'Ivan Caceres' => 'ztmobile@zytrust.com' }
   s.source           = { :git => 'https://github.com/ZYTRUST/zy_lib_regula_ocr_ios.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '13.0'
   
   s.resources = ['Sources/zy_lib_regula_ocr_ios.bundle']
 
@@ -42,7 +42,7 @@ el mejor funcionamiento , base 7.4.x
     'ONLY_ACTIVE_ARCH' => 'YES'
   }
 
-  s.dependency 'DocumentReader', '7.4.3900'
-  s.dependency 'DocumentReaderFullAuth', '7.4.9823'
+  s.dependency 'DocumentReader' , '8.1.4772'
+  s.dependency 'DocumentReaderFullAuth', '8.1.12883'
   
 end
